@@ -1,0 +1,11 @@
+/Users/JuanCMontoya/Projects/vscode/csharp/scraping_tutorial/obj/Debug/netcoreapp2.0/scraping_tutorial.csprojAssemblyReference.cache
+/Users/JuanCMontoya/Projects/vscode/csharp/scraping_tutorial/obj/Debug/netcoreapp2.0/scraping_tutorial.csproj.CoreCompileInputs.cache
+/Users/JuanCMontoya/Projects/vscode/csharp/scraping_tutorial/obj/Debug/netcoreapp2.0/scraping_tutorial.AssemblyInfoInputs.cache
+/Users/JuanCMontoya/Projects/vscode/csharp/scraping_tutorial/obj/Debug/netcoreapp2.0/scraping_tutorial.AssemblyInfo.cs
+/Users/JuanCMontoya/Projects/vscode/csharp/scraping_tutorial/bin/Debug/netcoreapp2.0/scraping_tutorial.deps.json
+/Users/JuanCMontoya/Projects/vscode/csharp/scraping_tutorial/bin/Debug/netcoreapp2.0/scraping_tutorial.runtimeconfig.json
+/Users/JuanCMontoya/Projects/vscode/csharp/scraping_tutorial/bin/Debug/netcoreapp2.0/scraping_tutorial.runtimeconfig.dev.json
+/Users/JuanCMontoya/Projects/vscode/csharp/scraping_tutorial/bin/Debug/netcoreapp2.0/scraping_tutorial.dll
+/Users/JuanCMontoya/Projects/vscode/csharp/scraping_tutorial/bin/Debug/netcoreapp2.0/scraping_tutorial.pdb
+/Users/JuanCMontoya/Projects/vscode/csharp/scraping_tutorial/obj/Debug/netcoreapp2.0/scraping_tutorial.dll
+/Users/JuanCMontoya/Projects/vscode/csharp/scraping_tutorial/obj/Debug/netcoreapp2.0/scraping_tutorial.pdb
