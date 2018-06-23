@@ -21,14 +21,47 @@ namespace scraping_tutorial
         {
             IWebDriver driver = new ChromeDriver();
 
-            driver.Url = "https://login.yahoo.com/config/login?.intl=us&.lang=en-US&.src=finance&.done=https%3A%2F%2Ffinance.yahoo.com%2F";
+            // Launch the ToolsQA website
+            driver.Url = "http://www.demoqa.com";
 
-            driver.Manage().Window.Maximize();
-            
-            driver.FindElement(By.Id("login-username")).SendKeys("testfinance@yahoo.com" + Keys.Enter);
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
-            driver.FindElement(By.Id("login-passwd")).Click();
-            driver.FindElement(By.Id("login-passwd")).SendKeys("3eggwhites6" + Keys.Enter);
+            // Storing the Title name in a string variable
+            String Title = driver.Title;
+
+            // Storing the Title length in Int variable
+            int TitleLength = driver.Title.Length;
+
+            // Printing Title name on console
+            Console.WriteLine("Title of the page is : " + Title);
+
+            // Printing Title length on console
+            Console.WriteLine("Lenght of the Title is : " + TitleLength);
+
+            // Storing URL in String variable
+            String PageUrl = driver.Url;
+
+            // Storing URL length in Int variable
+            int URLLength = PageUrl.Length;
+
+            // Printing URL on console
+            Console.WriteLine("URL of the page is : " + PageUrl);
+
+            // Printing URL length on console
+            Console.WriteLine("Length of the URL is : " + URLLength);
+
+            // Storing Page Source in String variable
+            String PageSource = driver.PageSource;
+
+            // Storing Page Source length in Int variable
+            int PageSourceLength = driver.PageSource.Length;
+
+            // // Printing Page Source on console
+            // Console.WriteLine("Page source of the page is : " + PageSource);
+
+            // Printing Page Source length on console
+            Console.WriteLine("Length of the Page Source is : " + PageSourceLength);
+
+            // Closing browser
+            driver.Quit();
         }
     }
 }

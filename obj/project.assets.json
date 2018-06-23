@@ -2956,15 +2956,6 @@
           }
         }
       },
-      "Selenium.RC/3.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/net40/ThoughtWorks.Selenium.Core.dll": {}
-        },
-        "runtime": {
-          "lib/net40/ThoughtWorks.Selenium.Core.dll": {}
-        }
-      },
       "Selenium.Support/3.12.1": {
         "type": "package",
         "dependencies": {
@@ -7992,19 +7983,6 @@
         "version.txt"
       ]
     },
-    "Selenium.RC/3.1.0": {
-      "sha512": "PVfriRaQoorRtRw2I41hn0WhkmKoAYQHsV+AuYy3L32l9uCJg7aeQwaq3O6QXykZIi00TF9+Jeiah38/kYT4HA==",
-      "type": "package",
-      "path": "selenium.rc/3.1.0",
-      "files": [
-        "lib/net35/ThoughtWorks.Selenium.Core.dll",
-        "lib/net35/ThoughtWorks.Selenium.Core.xml",
-        "lib/net40/ThoughtWorks.Selenium.Core.dll",
-        "lib/net40/ThoughtWorks.Selenium.Core.xml",
-        "selenium.rc.3.1.0.nupkg.sha512",
-        "selenium.rc.nuspec"
-      ]
-    },
     "Selenium.Support/3.12.1": {
       "sha512": "vConmmoCZqXS/c5MThury8BdHD5mK5blomyt4rstJBYs0HJeMcT+W02AnLIzHf0wOCFxtNgYtre1BR4NUrVvDA==",
       "type": "package",
@@ -12751,7 +12729,6 @@
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.8",
       "Microsoft.NETCore.App >= 2.0.0",
-      "Selenium.RC >= 3.1.0",
       "Selenium.Support >= 3.12.1",
       "Selenium.WebDriver >= 3.12.1",
       "Selenium.WebDriverBackedSelenium >= 3.12.1"
@@ -12805,10 +12782,6 @@
             "version": "[2.0.0, )",
             "autoReferenced": true
           },
-          "Selenium.RC": {
-            "target": "Package",
-            "version": "[3.1.0, )"
-          },
           "Selenium.Support": {
             "target": "Package",
             "version": "[3.12.1, )"
@@ -12829,17 +12802,5 @@
         "warn": true
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Selenium.RC 3.1.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Selenium.RC",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
-      ]
-    }
-  ]
+  }
 }
